@@ -1,0 +1,416 @@
+
+
+/*font-family: 'Gabriela', serif;
+font-family: 'Fredericka the Great', cursive;
+*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*header start*/
+header{
+    background-image: url(../images/banner.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.topl {
+    margin-top: 20px;
+}
+.topl p{
+font-size: 12px;
+text-transform: uppercase;
+margin:0;
+}
+.topl span{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.topr  img{
+ margin-top: 16px;
+margin-left: 10px;
+}
+.banlogo {
+    margin-top: 20px;
+}
+.menu li a{
+    margin-right: 30px;
+    font-weight: 700;
+    color:#000000;
+    transition:0.4s;
+}
+.menu li:last-child a{
+    margin-right: 0px!important;
+}
+.menu li a:hover{
+    color:#fff;
+
+}
+/*banner start*/
+.banner {
+    margin-top: 50px;
+}
+.bannleft {
+    margin-top: 85px;
+}
+.bannleft h2{
+font-family: 'Dancing Script', cursive;
+font-weight: 700;
+font-size: 45px;
+margin-left: 90px;
+}
+.bannleft h1{
+font-family: 'Fredericka the Great', cursive;
+font-size: 80px;
+text-transform: uppercase;
+}
+.bannleft p{
+font-weight: 700;
+font-size: 23px;
+text-transform: uppercase;
+margin-left: 25px;
+position: relative;
+}
+.bannleft p:before{
+    position: absolute;
+    content: '';
+    width: 410px;
+    height: 2px;
+    left: 0;
+    top: 170%;
+    background-color: #ccb301;
+}
+.banlrbot {
+   margin-top: 20px;
+}
+.bannerbottom{
+margin-top: 40px;
+}
+.banlrbot p{
+font-size: 20px;
+font-family: 'Fredericka the Great', cursive;
+text-transform: uppercase;
+margin: 0;
+}
+.banlrbot2 span{
+    font-size: 60px;
+font-family: 'Fredericka the Great', cursive;
+}
+.banerbtn {
+ margin-left: 110px;
+margin-top: 30px;
+width: 220px;
+height: 50px;
+font-weight: 900;
+font-size: 20px;
+color:#000000;
+text-transform: uppercase;
+border:2px solid #ccb301;
+}
+.banerbtn:focus{
+    outline: 0;
+    box-shadow:none;
+}
+.banerbtn:hover{
+     background-color: #e9e7a7;
+     border:2px solid #e9e7a7;
+}
+.animation{
+    position: relative;
+    animation: ani 3s linear infinite;
+}
+@keyframes ani{
+  0%{ transform: translateY(0); 
+opacity: 1;
+  }
+    50%{ 
+    opacity:1;
+  }
+    70%{ 
+    opacity: 1;
+  }
+    100%{ transform: translateY(-300px); 
+    opacity:0;
+  }
+}
+.ami{
+    position: absolute;
+   left: 8%;
+bottom:440px;
+
+}
+.ami02{
+  position: absolute;
+  left: 51%;
+bottom:405px; 
+}
+.ami03{
+   position: absolute;
+  left: 50%;
+bottom:70px;
+}
+.ami04{
+   position: absolute;
+      left: 85%;
+   bottom:77px; 
+}
+/*enjoy start*/
+.enjoy{
+margin: 90px 0px;
+}
+.conmtitle{
+
+}
+.conmtitle h1{
+      font-size: 40px;
+font-family: 'Fredericka the Great', cursive;
+text-transform: uppercase;
+margin-bottom: 20px;
+
+}
+.conmtitle p{
+    color: #6b6b6b;
+}
+.enjoyoal{
+    background-image: url(../images/cont1.png);
+background-repeat: no-repeat;
+background-position: center;
+margin-top: 40px;
+}
+.enjoyoal img{
+    transition: 0.4s;
+}
+.enjoyoal img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.enjoyo01 h2, .enjoyo02 h2, .enjoyo03 h2{
+font-size: 20px;
+text-transform: uppercase;
+margin:0;
+}
+.enjoyo01 p, .enjoyo03 p{
+color: #6b6b6b;
+margin: 20px 0px 31px;
+}
+.enjoyo02 p {
+    color: #6b6b6b;
+ margin: 20px 0px 31px;
+}
+.enjoybtn{
+    background-color: #ffe001;
+    width: 180px;
+    height: 60px;
+    color:#000;
+}
+.enjoybtn:hover{
+     background-color: #e9e7a7;
+}
+/*food start*/
+
+.food{
+background-image: url(../images/foodbg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.foodcont h1{
+   color:#ffe001; 
+}
+
+.foodcont{
+color:#fff;
+border:2px solid #ffe001;
+margin:100px 0px;
+padding:70px 0px;
+}
+.foodcont p{
+margin-top: 30px;
+color:#fff;
+}
+/*food end*/
+/*event start*/
+.event {
+    margin: 80px 0px 40px;
+}
+.sliderpart{
+    margin-top: 50px;
+}
+.myslid{
+    bottom: -20px;
+}
+.myslid li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffe001;
+}/*event end*/
+
+
+/*menu start*/
+.menuset{
+background-image: url(../images/menusig.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 80px 0px;
+}
+.menutit h1{
+   color:#ffe001;
+   margin-bottom: 30px;
+}
+.menutit p{
+    color:#fff;
+    margin-bottom: 55px;
+}
+.menusingle{
+color: #fff;
+}
+.menusingle h3{
+font-size: 21px;
+margin: 30px 0px 20px;
+font-family: 'Fredericka the Great', cursive;
+}
+.menusingle img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.menusingle a {
+ background-color: #d8d69b;
+  border:2px solid  #d8d69b;
+color:#000;
+    font-size: 18px;
+    width: 137px;
+    display: block;
+    padding: 12px 8px;
+    text-decoration:none;
+    transition:.3s;
+    margin-top: 50px;
+}
+.menusingle a:hover{
+  background-color: transparent;
+  border:2px solid  #d8d69b;
+  color:#ffe001;}
+/*menu end*/
+
+/*gallery start*/
+.gallerly {
+    margin: 90px 0px 60px;
+}
+.galpart{
+    margin-top: 40px;
+}
+.galsingle{
+    margin-bottom: 30px;
+        overflow: hidden;
+        border-radius: 6px; 
+}
+.galsingle img:hover{
+    transition: .3s;
+    opacity: 0.8;
+   transform:scale(1.2);
+     cursor: pointer;
+}
+.galbtn{
+    position:absolute;
+    bottom: 10%;
+    width: 137px;
+height: 46px;
+background-color: #feec7e;
+border:1px solid #ffe001;
+display:none;
+}
+.galsingle:hover .galbtn{
+    display: block;
+    transition: .3s;
+}
+/*galler end*/
+/*meal start*/
+.meal{
+    background-image: url(../images/menuste.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+padding: 70px 0px;
+}
+.mealleft  img{
+    transition: 0.4s;
+}
+.mealleft  img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.mealright{
+    margin-top: 140px;
+}
+.mealright h1{
+    font-size: 50px;
+margin: 20px 0px 20px;
+font-family: 'Fredericka the Great', cursive;
+}
+.mealright p{
+color:#6b6b6b;
+}
+/*meal end*/
+/*footer start*/
+footer{
+background-image: url(../images/menusig.jpg);
+padding: 70px 0px;
+}
+.footermenu{
+margin: 30px 0px;
+    margin-left: 0px;
+margin-left: 90px;
+}
+.footermenu ul li a{
+    color:#fff;
+}
+.footericon a i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #ffe100;
+    font-size: 25px;
+    color: #000;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.footericon a i:hover{
+    background-color:#feeb7e;
+}
+/*footer end*/
+
+
+
+/*a i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ffe100;
+    font-size: 20px;
+    color: #000;
+    border-radius: 50%;
+    margin-right:15px;
+    bottom: 102px;
+position: absolute;
+left: 36px;
+.galoverlay{
+      position: relative; 
+}
+.galsingle:after{
+    position: absolute;
+    content: '';
+    background-color: #8080809c;
+ left: 0;
+  height: 0;
+  bottom:35px;
+  width: 100%;
+  height: 0;
+}
+.galsingle:hover::after{
+    opacity:0.9;
+    height: 90%;
+  transition: .5s ease-out;
+   transform:scale(0.8);
+   cursor: pointer;
+}
